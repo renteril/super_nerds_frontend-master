@@ -15,6 +15,7 @@ import Homepage from './Homepage';
 import Summary from './Summary';
 import SendRequest from './SendRequest';
 import Wallet from './Wallet';
+import Activity from './Activity';
 
 export default function App() {
 	const useStyles = makeStyles((theme) => ({
@@ -54,6 +55,9 @@ export default function App() {
 						<Route path='/summary' component={Summary} />
 						<Route path='/send-request' component={SendRequest} />
 						<Route path='/wallet' component={Wallet} />
+						<Route path='/wallet' component={Wallet} />
+						<Route path='/activity' component={Activity} />
+						
 						<br />
 						<br />
 					</Grid>
